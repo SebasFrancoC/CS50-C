@@ -2,10 +2,10 @@
 
 int main(void) {
   /* code */
-  int age;
-  int days;
-  printf("What's your age?\n");
-  scanf("%i", &age);
-  days= 365*age;
-  printf("You are at least %i days old\n",days);
+  float price;
+  float discount;
+  printf("What's the price\n");
+  scanf("%f", &price);
+  discount= (1-0.05)*price;
+  printf("The price of these shoes are %.2f\n",discount);
 }
