@@ -1,16 +1,17 @@
 //Cough2
 #include <stdio.h>
 
-void cough(void) {
-  /* code */
-  printf("Cough\n");
-}
+void cough(int n);
 
 int main(void) {
   /* code */
-  for (size_t i = 0; i < 3; i++) {
-    /* code */
-    cough();
-  }
+    cough(5);
+}
 
+void cough(int n) {
+  /* code */
+  for (int i = 0; i < n; i++) {
+    /* code */
+    printf("Cough\n");
+  }
 }
